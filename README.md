@@ -2,6 +2,13 @@
 
 Sample OCPs for securing AWS Organizations:
 
+| Service | Latency | Service Coverage | 
+| ------- | ------- | ---------------- |
+| CloudWatch Events | <1 minute | [Low](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/EventTypes.html)
+| Config | Hourly Snapshots + ~minutely updates | [Medium](http://docs.aws.amazon.com/config/latest/developerguide/resource-config-reference.html) |
+| Flowlogs | 10+ minutes | High |
+| CloudTrail | 5–15 minutes | [High](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-services.html) |
+
 **Abbreviated OCP**
 ```json
 {
