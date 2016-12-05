@@ -1,5 +1,6 @@
-# aws-organizations
-notes on configuring aws organizations
+# AWS Organizations
+
+Sample OCPs for securing AWS Organizations:
 
 **Abbreviated OCP**
 ```json
